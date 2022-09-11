@@ -149,7 +149,7 @@ a:hover {
     flex-wrap: inherit;
   }
   .postcard .postcard__title {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   .postcard .postcard__tagbox {
     justify-content: start;
@@ -3872,3 +3872,8 @@ a:hover {
     );
   }
 }
+
+@media (max-width: 768px) {
+  .h1-text-center {
+    font-size: 1.4rem;
+  }
