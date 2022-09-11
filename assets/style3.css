@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
@@ -29,25 +30,25 @@ h1 {
   display: flex;
   flex-direction: row;
 
-  width: 100vw;
+  width: 100%;
   align-items: center;
   justify-content: center;
-  /* flex: gap 100; */
 }
 
 .button-container {
   position: relative;
   width: 400px;
   height: 200px;
-  margin-right: 30vh;
-  margin-top: 40vh;
+  /* margin-right: 30vh; */
+  margin-top: 10rem;
   overflow: hidden;
   transition: 0.5s;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-right: 7rem;
 }
 
 .button-container button {
-  width: 101%;
+  width: 100%;
   height: 100%;
   font-family: "Monument Extended", sans-serif;
   font-size: 40px;
@@ -109,7 +110,7 @@ span.mask {
   width: 400px;
   height: 200px;
 
-  margin-top: 40vh;
+  margin-top: 10rem;
   overflow: hidden;
   transition: 0.5s;
   border: 1px solid rgba(255, 255, 255, 0.2);
