@@ -97,7 +97,7 @@ section {
   font-weight: 500;
 }
 
-.block[data-block-section="2"].init {
+.block[data-block-section="1"].init {
   left: calc(100vw - 16rem);
 }
 
@@ -151,4 +151,10 @@ section {
   font-size: 2rem;
   line-height: 1.06rem;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    display: none;
+  }
 }
