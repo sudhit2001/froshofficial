@@ -1,0 +1,84 @@
+@font-face {
+  font-family: bm;
+  src: url("../font/BlackMango-Black.otf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background-color: #000; */
+  background-image: url("../Images/stars-bg.png");
+  color: #fff;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 4rem;
+  color: #00c1d4;
+  /* font-family: ; */
+  text-align: center;
+  font-family: "bm";
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 280px;
+  grid-template-rows: 400px;
+  grid-template-areas: "text";
+  border-radius: 18px;
+  background: transparent;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  border: 2px solid #00c1d4;
+  font-family: roboto;
+  text-align: center;
+  padding-top: 10px;
+}
+.card-image {
+  grid-area: image;
+}
+.card-text {
+  grid-area: text;
+}
+.card-stats {
+  grid-area: stats;
+}
+.card-text {
+  grid-area: text;
+  margin: 5px;
+  /* width: 100%; */
+}
+.card-text p {
+  color: grey;
+  font-size: 16px;
+  font-weight: 300;
+  transition: 0.5s ease-in-out;
+}
+.card-text h2 {
+  margin-top: 0px;
+  font-size: 28px;
+}
+.card:hover {
+  transform: scale(1.05);
+  background-color: #00c1d4;
+  filter: opacity(0.9);
+}
+.card:hover .card-text h2 {
+  color: #000;
+}
+.card:hover .card-text p {
+  color: #000;
+}
+.card {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}

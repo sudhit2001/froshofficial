@@ -1,0 +1,256 @@
+@font-face {
+  font-family: bm;
+  src: url("../font/BlackMango-Black.otf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #000 !important;
+  background-size: cover;
+  background-image: url("../Images/stars-bg.png");
+}
+
+body:after {
+  animation: grain 1s steps(10) infinite;
+  /* background-image: url("https://i.imgur.com/BJx12VV.jpg"); */
+
+  content: "";
+  height: 300%;
+  left: -50%;
+  opacity: 0.8;
+  position: fixed;
+  top: -110%;
+  width: 300%;
+  z-index: 0;
+}
+
+.row h5 {
+  color: #fff;
+  font-family: "Poppins";
+  margin: 48px 0 2px 4px;
+  font-size: 16px;
+}
+
+@keyframes grain {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5%, -10%);
+  }
+  20% {
+    transform: translate(-15%, 5%);
+  }
+  30% {
+    transform: translate(7%, -25%);
+  }
+  40% {
+    transform: translate(-5%, 25%);
+  }
+  50% {
+    transform: translate(-15%, 10%);
+  }
+  60% {
+    transform: translate(15%, 0);
+  }
+  70% {
+    transform: translate(0, 15%);
+  }
+  80% {
+    transform: translate(3%, 35%);
+  }
+  90% {
+    transform: translate(-10%, 10%);
+  }
+}
+
+.content {
+  z-index: 1;
+  position: relative;
+}
+
+h2 {
+  color: #00c1d4 !important;
+  font-family: "bm" !important;
+  /* margin: 32px 0 32px 40px !important; */
+  font-size: 4rem !important;
+  text-align: center;
+  margin-bottom: 7rem !important;
+  margin-top: 3rem !important;
+}
+
+.row {
+  z-index: 1;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cardd {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 220px;
+  -webkit-transition: 1s !important;
+}
+
+.row h5 {
+  color: #fff;
+  font-family: "Poppins";
+  margin: 48px 0 2px 4px;
+  font-size: 16px;
+}
+
+.row h5:before {
+  position: absolute;
+  content: "";
+  top: 50px;
+  left: -2px;
+  width: 2px;
+  height: 22px;
+  display: block;
+  background: #fff;
+}
+
+p {
+  color: grey;
+  margin-left: 4px;
+  font-size: 14px;
+  margin-bottom: 70px !important;
+}
+
+a {
+  margin-left: 4px;
+  color: lightgrey !important;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: grey !important;
+}
+
+.cardd:hover:before {
+  -webkit-transition: 1s !important;
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 100px;
+  width: 280px;
+  height: 280px;
+  z-index: -1;
+  animation: anim 3.2s ease-in-out;
+}
+
+.card1.cardd:hover::before {
+  background: url("../Images/core-photos/Raghav.png");
+}
+.card2.cardd:hover::before {
+  background: url("../Images/core-photos/Rishabh.png");
+}
+.card3.cardd:hover::before {
+  background: url("../Images/core-photos/Arkin.png");
+}
+
+.card4.cardd:hover::before {
+  background: url("../Images/core-photos/Aditi.png");
+}
+.card5.cardd:hover::before {
+  background: url("../Images/core-photos/Ashish.png");
+}
+.card6.cardd:hover::before {
+  background: url("../Images/core-photos/Daksh.png");
+}
+
+.card7.cardd:hover::before {
+  background: url("../Images/core-photos/Sudi.png");
+}
+.card8.cardd:hover::before {
+  background: url("../Images/core-photos/Anahita.png");
+}
+.card9.cardd:hover::before {
+  background: url("../Images/core-photos/Dev.png");
+}
+.card10.cardd:hover::before {
+  background: url("../Images/core-photos/Kohli.png");
+}
+.card11.cardd:hover::before {
+  background: url("../Images/core-photos/Sudhit.png");
+}
+.card12.cardd:hover::before {
+  background: url("../Images/core-photos/Vishal.png");
+}
+.card13.cardd:hover::before {
+  background: url("../Images/core-photos/Kautik.png");
+}
+.card14.cardd:hover::before {
+  background: url("../Images/core-photos/Siddhi.png");
+}
+.card15.cardd:hover::before {
+  background: url("../Images/core-photos/Kunwar.png");
+}
+.card16.cardd:hover::before {
+  background: url("../Images/core-photos/NIshtha.png");
+}
+.card17.cardd:hover::before {
+  background: url("../Images/core-photos/Nupur.png");
+}
+.card18.cardd:hover::before {
+  background: url("../Images/core-photos/Shubham.png");
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+    left: 70px;
+  }
+
+  20% {
+    opacity: 1;
+    left: 100px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  a {
+    display: none !important;
+  }
+
+  .cardd {
+    height: 100px;
+  }
+
+  .row h5 {
+    margin: 28px 0 2px 4px;
+  }
+
+  .row p {
+    margin-bottom: 10px !important;
+  }
+
+  .row h5::before {
+    top: 26px;
+  }
+
+  .cardd:hover::before {
+    display: none;
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+}

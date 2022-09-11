@@ -1,0 +1,304 @@
+@font-face {
+  font-family: bm;
+  src: url("../font/BlackMango-Black.otf");
+}
+
+html,
+body {
+  margin: 1rem 0 0 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000 !important;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.content {
+  z-index: 1;
+  position: relative;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  /* color: #e3e3e3 !important; */
+  font-family: "bm" !important;
+  /* margin: 32px 0 32px 40px !important; */
+  font-size: 3rem !important;
+  color: #00c1d4 !important;
+  text-transform: uppercase;
+  /* font-weight: 500; */
+  text-align: center;
+  background-color: #000;
+  /* margin-bottom: 5rem; */
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-bottom: 5rem !important;
+}
+
+.row {
+  z-index: 1;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cardd {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 220px;
+  -webkit-transition: 1s !important;
+}
+
+.row h5 {
+  color: #fff;
+  font-family: "Poppins";
+  margin: 48px 0 2px 4px;
+  font-size: 16px;
+}
+
+.row h5:before {
+  position: absolute;
+  content: "";
+  top: 50px;
+  left: -2px;
+  width: 2px;
+  height: 22px;
+  display: block;
+  background: #fff;
+}
+
+p {
+  color: grey;
+  margin-left: 4px;
+  font-size: 14px;
+  margin-bottom: 70px !important;
+}
+
+a {
+  margin-left: 4px;
+  color: lightgrey !important;
+  font-family: Poppins;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: grey !important;
+}
+
+.cardd:hover:before {
+  -webkit-transition: 1s !important;
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 100px;
+  width: 280px;
+  height: 280px;
+  z-index: -1;
+  animation: anim 3.2s ease-in-out;
+}
+
+.cardd:hover::before {
+  z-index: 100;
+}
+
+.card1.cardd:hover::before {
+  background: url("../Images/mentor-photos/Amber.png");
+}
+.card2.cardd:hover::before {
+  background: url("../Images/mentor-photos/Anmol.png");
+}
+.card3.cardd:hover::before {
+  background: url("../Images/mentor-photos/Ayesha.png");
+}
+
+.card4.cardd:hover::before {
+  background: url("../Images/mentor-photos/Harpratap.png");
+}
+.card5.cardd:hover::before {
+  background: url("../Images/mentor-photos/Monishka.png");
+}
+.card6.cardd:hover::before {
+  background: url("../Images/mentor-photos/R.png");
+}
+
+.card7.cardd:hover::before {
+  background: url("../Images/mentor-photos/harman.png");
+}
+.card8.cardd:hover::before {
+  background: url("../Images/mentor-photos/Hitakshi.png");
+}
+.card9.cardd:hover::before {
+  background: url("../Images/mentor-photos/Tushyaj.png");
+}
+.card10.cardd:hover::before {
+  background: url("../Images/mentor-photos/Prithvi.png");
+}
+.card11.cardd:hover::before {
+  background: url("../Images/mentor-photos/Prithvi.png");
+}
+
+.card13.cardd:hover::before {
+  background: url("../Images/mentor-photos/Ishita.png");
+}
+.card14.cardd:hover::before {
+  background: url("../Images/mentor-photos/khyati.png");
+}
+.card15.cardd:hover::before {
+  background: url("../Images/mentor-photos/Paras.png");
+}
+.card16.cardd:hover::before {
+  background: url("../Images/mentor-photos/Sanya.png");
+}
+.card17.cardd:hover::before {
+  background: url("../Images/mentor-photos/Sitanshu.png");
+}
+.card18.cardd:hover::before {
+  background: url("../Images/mentor-photos/Vidish.png");
+}
+.card19.cardd:hover::before {
+  background: url("../Images/mentor-photos/Soin.png");
+}
+.card20.cardd:hover::before {
+  background: url("../Images/mentor-photos/Yogesh.png");
+}
+.card21.cardd:hover::before {
+  background: url("../Images/mentor-photos/Chinmayee.png");
+}
+.card22.cardd:hover::before {
+  background: url("../Images/mentor-photos/Rachit.png");
+}
+.card23.cardd:hover::before {
+  background: url("../Images/mentor-photos/Ishika.png");
+}
+.card24.cardd:hover::before {
+  background: url("../Images/mentor-photos/Shreyas.png");
+}
+.card25.cardd:hover::before {
+  background: url("../Images/mentor-photos/Abrol.png");
+}
+.card26.cardd:hover::before {
+  background: url("../Images/mentor-photos/Aastha.png");
+}
+.card27.cardd:hover::before {
+  background: url("../Images/mentor-photos/Lakshya.png");
+}
+.card28.cardd:hover::before {
+  /* background: url("../Images/mentor-photos/Narayan.png"); */
+}
+.card29.cardd:hover::before {
+  background: url("../Images/mentor-photos/Pratinav.png");
+}
+.card30.cardd:hover::before {
+  background: url("../Images/mentor-photos/Kushal.png");
+}
+.card31.cardd:hover::before {
+  background: url("../Images/mentor-photos/Sisodia.png");
+}
+.card32.cardd:hover::before {
+  background: url("../Images/mentor-photos/Saumay.png");
+}
+.card33.cardd:hover::before {
+  background: url("../Images/mentor-photos/Swastik.png");
+}
+.card34.cardd:hover::before {
+  background: url("../Images/mentor-photos/Vivin.png");
+}
+.card35.cardd:hover::before {
+  background: url("../Images/mentor-photos/Muskan.png");
+}
+.card36.cardd:hover::before {
+  background: url("../Images/mentor-photos/Saggu.png");
+}
+.card37.cardd:hover::before {
+  background: url("../Images/mentor-photos/Raushni.png");
+}
+.card39.cardd:hover::before {
+  background: url("../Images/mentor-photos/Mahajan.png");
+}
+.card38.cardd:hover::before {
+  background: url("../Images/mentor-photos/Manan.png");
+}
+.card40.cardd:hover::before {
+  background: url("../Images/mentor-photos/Ananya.png");
+}
+.card41.cardd:hover::before {
+  background: url("../Images/mentor-photos/Jain.png");
+}
+.card42.cardd:hover::before {
+  background: url("../Images/mentor-photos/Mehta.png");
+}
+.card43.cardd:hover::before {
+  background: url("../Images/mentor-photos/Mridul.png");
+}
+.card44.cardd:hover::before {
+  background: url("../Images/mentor-photos/Mridul.png");
+}
+.card45.cardd:hover::before {
+  background: url("../Images/mentor-photos/Arushi.png");
+}
+.card46.cardd:hover::before {
+  background: url("../Images/mentor-photos/Ahuja.png");
+}
+.card47.cardd:hover::before {
+  background: url("../Images/mentor-photos/Narayan.png");
+}
+.card48.cardd:hover::before {
+  background-image: url("../Images/mentor-photos/Khushi.png");
+}
+.card49.cardd:hover::before {
+  background-image: url("../Images/mentor-photos/Dhairya.png");
+}
+.card50.cardd:hover::before {
+  background-image: url("../Images/mentor-photos/Samyak.png");
+}
+.card51.cardd:hover::before {
+  background-image: url("../Images/mentor-photos/Marwah.png");
+}
+@keyframes anim {
+  0% {
+    opacity: 0;
+    left: 70px;
+  }
+
+  20% {
+    opacity: 1;
+    left: 100px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  a {
+    display: none !important;
+  }
+
+  .cardd {
+    height: 100px;
+  }
+
+  .row h5 {
+    margin: 28px 0 2px 4px;
+  }
+
+  .row p {
+    margin-bottom: 10px !important;
+  }
+
+  .row h5::before {
+    top: 26px;
+  }
+
+  .cardd:hover::before {
+    display: none;
+  }
+}
