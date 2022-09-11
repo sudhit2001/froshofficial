@@ -148,7 +148,7 @@ a:hover {
     flex-wrap: inherit;
   }
   .postcard .postcard__title {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   .postcard .postcard__tagbox {
     justify-content: start;
@@ -496,7 +496,7 @@ a:hover {
     flex-wrap: inherit;
   }
   .postcard2 .postcard2__title {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   .postcard2 .postcard2__tagbox {
     justify-content: start;
@@ -844,7 +844,7 @@ a:hover {
     flex-wrap: inherit;
   }
   .postcard3 .postcard3__title {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   .postcard3 .postcard3__tagbox {
     justify-content: start;
@@ -1433,5 +1433,11 @@ a:hover {
       rgba(189, 187, 73, 0.1),
       transparent 50%
     );
+  }
+}
+
+@media (max-width: 768px) {
+  .h1-text-center {
+    font-size: 1.4rem;
   }
 }
