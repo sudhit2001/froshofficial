@@ -559,10 +559,6 @@ section .start_section {
   .menu-items li a {
     font-size: 1em;
   }
-  .logo .star {
-    width: 60%;
-    height: 20%;
-  }
 }
 
 @media (max-width: 768px) {
